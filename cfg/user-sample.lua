@@ -83,7 +83,7 @@ styles.text = {bg = {240,240,220}}
 -- to change the default color scheme; check tomorrow.lua for the list
 -- of supported schemes or use cfg/scheme-picker.lua to pick a scheme.
 -- (no longer needed in v1.21+) local G = ... -- this now points to the global environment
-styles = loadfile('cfg/tomorrow.lua')('Tomorrow')
+styles = loadfile('cfg/tomorrow.lua')('TomorrowNight')
 -- also apply the same scheme to Output and Console windows
 stylesoutshell = styles
 
